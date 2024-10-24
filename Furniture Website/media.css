@@ -1,0 +1,173 @@
+@media (width >= 1345px){
+  .main_center{
+    width: 1340px;
+    margin: auto;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+  .card_img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 43%;
+  }
+
+  .nav_bar {
+    display: block;
+    width: 100%;
+  }
+  .menu-bar i{
+    font-size: 3.3rem;
+  }
+  nav ul {
+    position: relative;
+    top: 14%;
+    right: 2%;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    /* gap: 2rem; */
+    line-height: 2;
+    overflow: hidden;
+    transition: all 0.5s;
+    display: inline-block;
+  }
+
+  .login_form {
+    position: absolute;
+    top: 58%;
+  }
+  .menu-bar {
+    display: block;
+    position: absolute;
+    right: 2%;
+    top: 1%;
+  }
+
+  /* Navbar End  */
+
+  #hero_sec h1 {
+    font-size: 6rem;
+  }
+  #hero_sec p {
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .Our_Services{
+  margin-bottom: 7%;
+  }
+
+
+
+  #about_us main {
+    flex-direction: column;
+  }
+  .text_side,
+  .img_side {
+    width: 95%;
+    text-align: left;
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .parents_img {
+    flex-direction: column;
+  }
+  .left_img,
+  .right_img {
+    width: 98%;
+    height: auto;
+    margin: 2rem 0rem;
+  }
+
+  /* Slider Code  */
+  .frame {
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .slides_img {
+    flex-direction: column;
+  }
+  .arrow {
+    font-size: 1.5rem;
+  }
+
+  .bg_img a {
+    font-size: 1.2rem;
+  }
+  .bottom_text {
+    font-size: 1.5rem;
+  }
+
+  /* Client_Parent */
+  #card_parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .card_container {
+    width: 100%;
+    height: auto;
+    margin: 25% 0;
+  }
+
+  .cards {
+    width: 100%;
+  }
+  .card1 {
+    position: absolute;
+    top: 0;
+    margin: 3% 0;
+  }
+  .card2 {
+    position: absolute;
+    bottom: 0;
+  }
+
+  /* user_info */
+  .info,
+  .gmap {
+    width: 100%;
+  }
+  .user_input_detail {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .gmap iframe {
+    height: 40vh;
+  }
+  /* footer start  */
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+  /* testomonial  */
+  .snip1533{
+  min-width: 60%;
+  }
+
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
