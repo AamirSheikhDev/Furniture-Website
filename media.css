@@ -168,6 +168,10 @@
   .footer-col{
     width: 100%;
 }
+  .logo{
+    width:40%;
+    height :auto;
+  }
 }
 
 
